@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:4001/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:4001/' : 'https://pure-cliffs-67995.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
